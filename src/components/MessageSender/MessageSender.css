@@ -16,11 +16,37 @@
   flex: 1;
   display: flex;
 }
-/* .messageSender_top > form > input{
+.messageSender_top > form > input{
   outline-width: 0;
   border: none;
   padding: 5px 20px;
   margin: 0 10px;
   border-radius: 999px;
-  background-color: 
-} */
+  background-color: #eff2f5;
+}
+.messageSender_top > form > button{
+ display: none;
+}
+.messageSender_input{
+  flex:1;
+}
+.messageSender_bottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageSender_option{
+  padding: 20px;
+  display: flex;
+  color: gray;
+  margin: 5px;
+  align-items: center;
+}
+.messageSender_option > h3{
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.messageSender_option:hover{
+  border-radius: 20px;  
+  background-color: #eff2f5;
+}
